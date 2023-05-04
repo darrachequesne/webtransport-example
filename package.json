@@ -1,0 +1,10 @@
+{
+  "name": "webtransport-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "@fails-components/webtransport": "^0.1.5"
+  }
+}
