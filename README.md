@@ -14,11 +14,3 @@ $ node client.js
 # open Chrome
 $ ./open_chrome.sh
 ```
-
-You need to create an alias in your `/etc/hosts` file:
-
-```
-$ cat /etc/hosts
-127.0.0.1   localhost
-127.0.0.1   example.com
-```

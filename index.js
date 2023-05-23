@@ -19,7 +19,7 @@ const server = createServer(
 server.listen(3000);
 
 const h3Server = new Http3Server({
-  port: 3001,
+  port: 3000,
   host: "0.0.0.0",
   secret: "testsecret",
   cert,
