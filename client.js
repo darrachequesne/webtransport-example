@@ -4,7 +4,7 @@ import { X509Certificate } from "crypto";
 
 const cert = readFileSync("./cert.pem");
 
-const client = new WebTransport("https://localhost:3001/echo", {
+const client = new WebTransport("https://localhost:3000/echo", {
   serverCertificateHashes: [
     {
       algorithm: "sha-256",
